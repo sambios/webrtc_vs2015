@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{fa744761-14bd-4371-bfc7-2a16c5219d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{fa7e5e7b-85aa-4118-abef-7cc6562dd936}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\base\array_view.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\arraysize.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\asyncfile.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\asynchttprequest.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\asyncinvoker.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\asyncinvoker-inl.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\asyncpacketsocket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\asyncresolverinterface.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\asyncsocket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\asynctcpsocket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\asyncudpsocket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\atomicops.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\autodetectproxy.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\bandwidthsmoother.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\base64.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\basictypes.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\bind.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\bitbuffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\buffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\bufferqueue.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\bytebuffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\byteorder.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\callback.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\checks.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\common.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\constructormagic.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\copyonwritebuffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\crc32.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\criticalsection.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\cryptstring.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\ratelimiter.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\ratetracker.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\refcount.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\rtccertificate.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\rtccertificategenerator.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\safe_conversions.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\safe_conversions_impl.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\scoped_ptr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\scoped_ref_ptr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\scopedptrcollection.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\signalthread.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\sigslot.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\socket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\socketadapters.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\socketaddress.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\socketaddresspair.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\socketfactory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\socketpool.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\socketserver.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\socketstream.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\ssladapter.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\sslconfig.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\sslfingerprint.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\sslidentity.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\sslroots.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\sslsocketfactory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\sslstreamadapter.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\stream.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\stringencode.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\stringutils.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\swap_queue.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\systeminfo.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\task.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\taskparent.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\thread.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\thread_annotations.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\thread_checker.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\thread_checker_impl.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\timeutils.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\timing.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\trace_event.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\transformadapter.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\urlencode.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\versionparsing.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\virtualsocketserver.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\win32.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\win32filesystem.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\win32regkey.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\win32socketinit.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\win32socketserver.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\win32window.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\win32windowpicker.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\window.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\windowpicker.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\windowpickerfactory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\winfirewall.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\winping.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\base\worker.h">
+      <Filter>base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\base\asyncfile.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\asynchttprequest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\asyncinvoker.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\asyncpacketsocket.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\asyncresolverinterface.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\asyncsocket.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\asynctcpsocket.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\asyncudpsocket.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\autodetectproxy.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\bandwidthsmoother.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\base64.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\bitbuffer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\buffer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\bufferqueue.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\bytebuffer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\checks.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\common.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\copyonwritebuffer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\crc32.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\criticalsection.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\cryptstring.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\ratelimiter.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\ratetracker.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\rtccertificate.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\rtccertificategenerator.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\signalthread.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\sigslot.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\socketadapters.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\socketaddress.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\socketaddresspair.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\socketpool.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\socketstream.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\ssladapter.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslfingerprint.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslidentity.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslsocketfactory.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslstreamadapter.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\stream.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\stringencode.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\stringutils.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\systeminfo.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\task.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\taskparent.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\taskrunner.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\thread.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\thread_checker_impl.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\timeutils.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\timing.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\transformadapter.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\urlencode.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\versionparsing.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\virtualsocketserver.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\win32.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\win32filesystem.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\win32regkey.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\win32securityerrors.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\win32socketinit.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\win32socketserver.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\win32window.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\win32windowpicker.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\winfirewall.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\winping.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\worker.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

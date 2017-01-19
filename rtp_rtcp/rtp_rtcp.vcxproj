@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F2B2756-29D6-4486-868B-E8656612B60A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>rtp_rtcp</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\bitrate.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\dtmf_queue.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\fec_receiver_impl.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\fec_test_helper.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\forward_error_correction.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\forward_error_correction_internal.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\h264_bitstream_parser.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\h264_sps_parser.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\packet_loss_stats.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\producer_fec.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\receive_statistics_impl.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\remote_ntp_time_estimator.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_packet.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_receiver.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_receiver_help.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_sender.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_utility.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_h264.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_video_generic.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_vp8.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_vp8_test_helper.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_vp9.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_header_extension.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_header_parser.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_packet_history.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_payload_registry.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_receiver_audio.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_receiver_impl.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_receiver_strategy.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_receiver_video.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_rtcp_impl.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_sender.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_sender_audio.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_sender_video.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_utility.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\ssrc_database.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\time_util.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\tmmbr_help.cc" />
+    <ClCompile Include="..\..\webrtc\modules\rtp_rtcp\source\vp8_partition_aggregator.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\bitrate.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\byte_io.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\dtmf_queue.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\fec_private_tables_bursty.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\fec_private_tables_random.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\fec_receiver_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\fec_test_helper.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\forward_error_correction.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\forward_error_correction_internal.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\h264_bitstream_parser.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\h264_sps_parser.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\packet_loss_stats.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\producer_fec.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\receive_statistics_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_packet.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_receiver.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_receiver_help.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_sender.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtcp_utility.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_h264.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_video_generic.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_vp8.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_vp8_test_helper.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_format_vp9.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_header_extension.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_packet_history.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_receiver_audio.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_receiver_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_receiver_strategy.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_receiver_video.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_rtcp_config.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_rtcp_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_sender.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_sender_audio.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_sender_video.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\rtp_utility.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\ssrc_database.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\time_util.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\tmmbr_help.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\video_codec_information.h" />
+    <ClInclude Include="..\..\webrtc\modules\rtp_rtcp\source\vp8_partition_aggregator.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

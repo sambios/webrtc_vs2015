@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtp_rtcp", "rtp_rtcp\rtp_rtcp.vcxproj", "{1F2B2756-29D6-4486-868B-E8656612B60A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peerconnect_client", "peerconnect_client\peerconnect_client.vcxproj", "{19700D6F-3090-41B8-B0A9-EC0979910CCC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peerconnect_server", "peerconnect_server\peerconnect_server.vcxproj", "{A64A26E7-BF71-4F3B-B0C5-033CE5635182}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webrtc", "webrtc\webrtc.vcxproj", "{62877A50-12B4-4220-B3DE-20DA917E5699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F2B2756-29D6-4486-868B-E8656612B60A}.Debug|x64.ActiveCfg = Debug|x64
+		{1F2B2756-29D6-4486-868B-E8656612B60A}.Debug|x64.Build.0 = Debug|x64
+		{1F2B2756-29D6-4486-868B-E8656612B60A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1F2B2756-29D6-4486-868B-E8656612B60A}.Debug|x86.Build.0 = Debug|Win32
+		{1F2B2756-29D6-4486-868B-E8656612B60A}.Release|x64.ActiveCfg = Release|x64
+		{1F2B2756-29D6-4486-868B-E8656612B60A}.Release|x64.Build.0 = Release|x64
+		{1F2B2756-29D6-4486-868B-E8656612B60A}.Release|x86.ActiveCfg = Release|Win32
+		{1F2B2756-29D6-4486-868B-E8656612B60A}.Release|x86.Build.0 = Release|Win32
+		{19700D6F-3090-41B8-B0A9-EC0979910CCC}.Debug|x64.ActiveCfg = Debug|x64
+		{19700D6F-3090-41B8-B0A9-EC0979910CCC}.Debug|x64.Build.0 = Debug|x64
+		{19700D6F-3090-41B8-B0A9-EC0979910CCC}.Debug|x86.ActiveCfg = Debug|Win32
+		{19700D6F-3090-41B8-B0A9-EC0979910CCC}.Debug|x86.Build.0 = Debug|Win32
+		{19700D6F-3090-41B8-B0A9-EC0979910CCC}.Release|x64.ActiveCfg = Release|x64
+		{19700D6F-3090-41B8-B0A9-EC0979910CCC}.Release|x64.Build.0 = Release|x64
+		{19700D6F-3090-41B8-B0A9-EC0979910CCC}.Release|x86.ActiveCfg = Release|Win32
+		{19700D6F-3090-41B8-B0A9-EC0979910CCC}.Release|x86.Build.0 = Release|Win32
+		{A64A26E7-BF71-4F3B-B0C5-033CE5635182}.Debug|x64.ActiveCfg = Debug|x64
+		{A64A26E7-BF71-4F3B-B0C5-033CE5635182}.Debug|x64.Build.0 = Debug|x64
+		{A64A26E7-BF71-4F3B-B0C5-033CE5635182}.Debug|x86.ActiveCfg = Debug|Win32
+		{A64A26E7-BF71-4F3B-B0C5-033CE5635182}.Debug|x86.Build.0 = Debug|Win32
+		{A64A26E7-BF71-4F3B-B0C5-033CE5635182}.Release|x64.ActiveCfg = Release|x64
+		{A64A26E7-BF71-4F3B-B0C5-033CE5635182}.Release|x64.Build.0 = Release|x64
+		{A64A26E7-BF71-4F3B-B0C5-033CE5635182}.Release|x86.ActiveCfg = Release|Win32
+		{A64A26E7-BF71-4F3B-B0C5-033CE5635182}.Release|x86.Build.0 = Release|Win32
+		{62877A50-12B4-4220-B3DE-20DA917E5699}.Debug|x64.ActiveCfg = Debug|x64
+		{62877A50-12B4-4220-B3DE-20DA917E5699}.Debug|x64.Build.0 = Debug|x64
+		{62877A50-12B4-4220-B3DE-20DA917E5699}.Debug|x86.ActiveCfg = Debug|Win32
+		{62877A50-12B4-4220-B3DE-20DA917E5699}.Debug|x86.Build.0 = Debug|Win32
+		{62877A50-12B4-4220-B3DE-20DA917E5699}.Release|x64.ActiveCfg = Release|x64
+		{62877A50-12B4-4220-B3DE-20DA917E5699}.Release|x64.Build.0 = Release|x64
+		{62877A50-12B4-4220-B3DE-20DA917E5699}.Release|x86.ActiveCfg = Release|Win32
+		{62877A50-12B4-4220-B3DE-20DA917E5699}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
