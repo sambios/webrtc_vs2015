@@ -18,23 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\conductor.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\defaults.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\main.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\main_wnd.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\peer_connection_client.cc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\conductor.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\defaults.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\flagdefs.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\main_wnd.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{19700D6F-3090-41B8-B0A9-EC0979910CCC}</ProjectGuid>
+    <ProjectGuid>{4382C989-4AA4-42BC-89D4-E34D84799DB3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>peerconnect_client</RootNamespace>
+    <RootNamespace>webrtc_p2p_stunprober</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -109,7 +96,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>webrtc_base.lib;webrtc_p2p.lib;jsoncpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>webrtc_base.lib;webrtc_p2p.lib;ws2_32.lib;winmm.lib;Secur32.lib;Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -159,6 +146,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\stunprober\main.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\stunprober\stunprober.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\p2p\stunprober\stunprober.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{fae0a076-2fac-45ce-a0f7-3b356b4ad4c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\asyncstuntcpsocket.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\basicpacketsocketfactory.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\dtlstransportchannel.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\p2pconstants.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\p2ptransport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\p2ptransportchannel.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\port.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\portallocator.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\pseudotcp.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\rawtransport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\relayport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\relayserver.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\session.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\sessiondescription.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\stun.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\stunport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\stunrequest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\stunserver.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\tcpport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\transport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\transportchannel.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\transportcontroller.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\transportdescription.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\transportdescriptionfactory.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\turnport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\base\turnserver.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\client\basicportallocator.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\client\httpportallocator.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\p2p\client\socketmonitor.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

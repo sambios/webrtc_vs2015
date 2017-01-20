@@ -44,8 +44,5 @@
     <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\main_wnd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\peer_connection_client.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
