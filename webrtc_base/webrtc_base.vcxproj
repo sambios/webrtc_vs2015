@@ -212,6 +212,10 @@
     <ClCompile Include="..\..\webrtc\webrtc\base\socketpool.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\socketstream.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\ssladapter.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslfingerprint.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslidentity.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\base\stream.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\stringencode.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\stringutils.cc" />

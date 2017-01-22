@@ -7,11 +7,11 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(webrtc_root);..\jsoncpp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WEBRTC_WIN;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(webrtc_root);..\..\jsoncpp\include;..\..\3rdparty\expat\x86-windows-cl14\include;..\..\3rdparty\libyuv\x86-windows-cl14\include;..\..\3rdparty\\DirectX\DirectShow\BaseClasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WEBRTC_WIN;NOMINMAX;EXPAT_RELATIVE_PATH;WEBRTC_NS_FIXED;WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE;WEBRTC_CODEC_ISAC;HAVE_WEBRTC_VOICE;HAVE_WEBRTC_VIDEO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);..\..\3rdparty\DirectX\DirectShow\BaseClasses\lib;..\..\3rdparty\libyuv\x86-windows-cl14\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>ws2_32.lib;winmm.lib;Secur32.lib;Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

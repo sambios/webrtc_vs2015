@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\call\bitrate_allocator.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\call\call.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\call\rtc_event_log.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\call\transport_adapter.cc" />
+  </ItemGroup>
+</Project>

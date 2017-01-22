@@ -19,44 +19,76 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\webrtc\webrtc\api\audiotrack.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\datachannel.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\dtlsidentitystore.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\webrtc\webrtc\api\dtmfsender.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\fakemetricsobserver.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\jsepicecandidate.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\jsepsessiondescription.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\localaudiosource.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\mediaconstraintsinterface.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\mediacontroller.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\mediastream.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\mediastreamhandler.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\mediastreamobserver.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\peerconnection.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\peerconnectionfactory.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\portallocatorfactory.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\remoteaudiosource.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\remoteaudiotrack.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\rtpreceiver.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\rtpsender.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\sctputils.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\statscollector.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\statstypes.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\videocapturertracksource.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\videotrack.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\videotracksource.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\webrtcsdp.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\webrtcsession.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\api\webrtcsessiondescriptionfactory.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\common_types.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\config.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\bitrate.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\dtmf_queue.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\fec_receiver_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\fec_test_helper.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\forward_error_correction.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\forward_error_correction_internal.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\h264_bitstream_parser.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\h264_sps_parser.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\packet_loss_stats.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\producer_fec.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\receive_statistics_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\remote_ntp_time_estimator.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\app.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\bye.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\common_header.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\compound_packet.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\dlrr.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\extended_jitter_report.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\extended_reports.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\fir.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\nack.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\pli.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\psfb.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\rapid_resync_request.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\receiver_report.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\remb.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\report_block.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\rpsi.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\rrtr.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\rtpfb.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\sdes.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\sender_report.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\sli.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\tmmbn.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\tmmbr.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\tmmb_item.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\transport_feedback.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\voip_metric.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_receiver.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_receiver_help.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_sender.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_utility.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_format.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_format_h264.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_format_video_generic.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_format_vp8.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_format_vp9.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_header_extension.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_header_parser.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_packet_history.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_payload_registry.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_receiver_audio.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_receiver_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_receiver_strategy.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_receiver_video.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_rtcp_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_sender.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_sender_audio.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_sender_video.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtp_utility.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\ssrc_database.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\time_util.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\tmmbr_help.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\vp8_partition_aggregator.cc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{62877A50-12B4-4220-B3DE-20DA917E5699}</ProjectGuid>
+    <ProjectGuid>{6419E10B-1FA0-4B93-AFC8-6499B2A6CE11}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>webrtc</RootNamespace>
+    <RootNamespace>webrtc_module_rtp</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

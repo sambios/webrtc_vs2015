@@ -19,46 +19,61 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\conductor.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\defaults.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\main.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\main_wnd.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\peer_connection_client.cc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\conductor.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\defaults.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\flagdefs.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\main_wnd.h" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\codec.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\cpuid.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\mediaconstants.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\mediaengine.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\rtpdataengine.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\rtpdump.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\rtputils.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\streamparams.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\turnutils.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\videoadapter.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\videobroadcaster.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\videocapturer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\videocommon.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\videoframe.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\videoframefactory.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\videosourcebase.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\base\yuvframegenerator.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\devices\gdivideorenderer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\engine\simulcast.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\engine\webrtcmediaengine.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\engine\webrtcvideocapturer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\engine\webrtcvideocapturerfactory.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\engine\webrtcvideoengine2.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\engine\webrtcvideoframe.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\engine\webrtcvideoframefactory.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\media\engine\webrtcvoiceengine.cc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{19700D6F-3090-41B8-B0A9-EC0979910CCC}</ProjectGuid>
+    <ProjectGuid>{8B3BD23E-65B1-4C40-B276-5F1E97152610}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>peerconnect_client</RootNamespace>
+    <RootNamespace>webrtc_media</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -86,30 +101,17 @@
     <Import Project="..\webrtc.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
+  <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>webrtc.lib;webrtc_base.lib;webrtc_p2p.lib;jsoncpp.lib;webrtc_libjingle.lib;webrtc_media.lib;webrtc_modules.lib;webrtc_system_wrappers.lib;dxguid.lib;strmiids.lib;strmbasd-v140.lib;webrtc_common_audio.lib;webrtc_common_video.lib;libyuvd.lib;webrtc_video.lib;webrtc_voice_engine.lib;webrtc_pc.lib;webrtc_call.lib;webrtc_module_rtp.lib;webrtc_module_audio_coding.lib;webrtc_module_video_coding.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -118,11 +120,10 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -133,14 +134,12 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>strmbase-v140.lib;amstrmid.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -151,13 +150,12 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

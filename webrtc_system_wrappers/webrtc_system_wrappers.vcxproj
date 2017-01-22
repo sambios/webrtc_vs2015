@@ -137,6 +137,7 @@
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\aligned_malloc.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\atomic32_win.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\clock.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\condition_variable_event_win.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\cpu_features.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\cpu_info.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\data_log.cc" />
@@ -155,6 +156,7 @@
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\tick_util.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\timestamp_extrapolator.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\trace_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\trace_win.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\condition_variable_event_win.h" />

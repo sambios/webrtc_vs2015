@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_conference_mixer\source\audio_conference_mixer_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_conference_mixer\source\audio_frame_manipulator.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_conference_mixer\source\time_scheduler.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\audio_device_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\audio_device_generic.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\audio_device_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\dummy\audio_device_dummy.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\dummy\file_audio_device.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\dummy\file_audio_device_factory.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\fine_audio_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\win\audio_device_core_win.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\win\audio_device_wave_win.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_device\win\audio_mixer_manager_win.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\aecm\aecm_core.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\aecm\aecm_core_c.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\aecm\echo_control_mobile.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\aec\aec_core.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\aec\aec_core_sse2.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\aec\aec_rdft.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\aec\aec_rdft_sse2.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\aec\aec_resampler.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\aec\echo_cancellation.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\agc\agc.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\agc\agc_manager_direct.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\agc\histogram.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\agc\legacy\analog_agc.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\agc\legacy\digital_agc.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\agc\utility.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\audio_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\audio_processing_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\beamformer\array_util.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\beamformer\covariance_matrix_generator.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\beamformer\nonlinear_beamformer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\echo_cancellation_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\echo_control_mobile_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\gain_control_for_experimental_agc.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\gain_control_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\high_pass_filter_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\intelligibility\intelligibility_enhancer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\intelligibility\intelligibility_utils.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\level_estimator_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\logging\aec_logging_file_handling.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\noise_suppression_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\ns\noise_suppression.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\ns\noise_suppression_x.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\ns\nsx_core.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\ns\nsx_core_c.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\ns\ns_core.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\rms_level.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\splitting_filter.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\three_band_filter_bank.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\transient\click_annotate.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\transient\file_utils.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\transient\moving_moments.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\transient\transient_detector.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\transient\transient_suppressor.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\transient\wpd_node.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\transient\wpd_tree.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\typing_detection.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\utility\block_mean_calculator.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\utility\delay_estimator.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\utility\delay_estimator_wrapper.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\vad\gmm.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\vad\pitch_based_vad.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\vad\pitch_internal.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\vad\pole_zero_filter.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\vad\standalone_vad.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\vad\vad_audio_proc.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\vad\vad_circular_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\vad\voice_activity_detector.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_processing\voice_detection_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\bitrate_controller\bitrate_controller_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\bitrate_controller\send_side_bandwidth_estimation.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\congestion_controller\congestion_controller.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\cropped_desktop_frame.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\cropping_window_capturer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\cropping_window_capturer_win.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\desktop_and_cursor_composer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\desktop_capture_options.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\desktop_frame.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\desktop_frame_win.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\desktop_geometry.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\desktop_region.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\differ.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\differ_block.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\differ_block_sse2.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\mouse_cursor.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\mouse_cursor_monitor_win.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\screen_capturer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\screen_capturer_helper.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\screen_capturer_win.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\screen_capture_frame_queue.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\shared_desktop_frame.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\shared_memory.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\window_capturer.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\window_capturer_win.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\media_file\media_file_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\media_file\media_file_utility.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\pacing\bitrate_prober.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\pacing\paced_sender.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\pacing\packet_router.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\remote_bitrate_estimator\aimd_rate_control.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\remote_bitrate_estimator\inter_arrival.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\remote_bitrate_estimator\overuse_detector.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\remote_bitrate_estimator\overuse_estimator.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\remote_bitrate_estimator\remote_bitrate_estimator_abs_send_time.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\remote_bitrate_estimator\remote_bitrate_estimator_single_stream.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\remote_bitrate_estimator\remote_estimator_proxy.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\remote_bitrate_estimator\send_time_history.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\remote_bitrate_estimator\transport_feedback_adapter.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\utility\source\audio_frame_operations.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\utility\source\coder.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\utility\source\file_player_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\utility\source\file_recorder_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\utility\source\process_thread_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\device_info_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_factory.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\windows\device_info_ds.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\windows\device_info_mf.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\windows\help_functions_ds.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\windows\sink_filter_ds.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\windows\video_capture_ds.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\windows\video_capture_factory_windows.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_capture\windows\video_capture_mf.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\brightness_detection.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\content_analysis.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\content_analysis_sse2.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\deflickering.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\frame_preprocessor.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\spatial_resampler.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\util\denoiser_filter.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\util\denoiser_filter_c.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\util\denoiser_filter_sse2.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\util\noise_estimation.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\util\skin_detection.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\video_decimator.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\video_denoiser.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_processing\video_processing_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_render\video_render_internal_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_render\windows\video_render_direct3d9.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_render\windows\video_render_windows_impl.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_processing\audio_buffer.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_processing\intelligibility\intelligibility_enhancer.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_render\windows\i_video_render_win.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_render\windows\video_render_direct3d9.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_render\windows\video_render_windows_impl.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7806C90D-2ECA-4F02-9047-8701D1F72700}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>webrtc_modules</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

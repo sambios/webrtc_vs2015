@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="xmllite">
+      <UniqueIdentifier>{c57a33a7-ef83-480a-92d9-f808806ab7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xmpp">
+      <UniqueIdentifier>{2a6790dc-11d6-4e5b-bd0b-8a7f276112b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmllite\qname.cc">
+      <Filter>xmllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlbuilder.cc">
+      <Filter>xmllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlconstants.cc">
+      <Filter>xmllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlelement.cc">
+      <Filter>xmllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlnsstack.cc">
+      <Filter>xmllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlparser.cc">
+      <Filter>xmllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlprinter.cc">
+      <Filter>xmllite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\chatroommoduleimpl.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\constants.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\discoitemsquerytask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\hangoutpubsubclient.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\iqtask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\jid.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\jingleinfotask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\moduleimpl.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\mucroomconfigtask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\mucroomdiscoverytask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\mucroomlookuptask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\mucroomuniquehangoutidtask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\pingtask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\presenceouttask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\presencereceivetask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\presencestatus.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\pubsub_task.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\pubsubclient.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\pubsubstateclient.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\pubsubtasks.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\receivetask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\rostermoduleimpl.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\saslmechanism.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmppauth.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmppclient.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmppengineimpl.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmppengineimpl_iq.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmpplogintask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmpppump.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmppsocket.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmppstanzaparser.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmpptask.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\libjingle\xmpp\xmppthread.cc">
+      <Filter>xmpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\libjingle\xmllite\qname.h">
+      <Filter>xmllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlbuilder.h">
+      <Filter>xmllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlconstants.h">
+      <Filter>xmllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlelement.h">
+      <Filter>xmllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlnsstack.h">
+      <Filter>xmllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlparser.h">
+      <Filter>xmllite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\libjingle\xmllite\xmlprinter.h">
+      <Filter>xmllite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\webrtc\webrtc\libjingle\xmllite\xmllite.gyp">
+      <Filter>xmllite</Filter>
+    </None>
+  </ItemGroup>
+</Project>
