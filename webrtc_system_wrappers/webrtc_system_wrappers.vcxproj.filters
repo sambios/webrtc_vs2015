@@ -87,6 +87,9 @@
     <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\trace_win.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\event.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\condition_variable_event_win.h">

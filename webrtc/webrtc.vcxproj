@@ -22,7 +22,7 @@
     <ClCompile Include="..\..\webrtc\webrtc\api\audiotrack.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\api\datachannel.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\api\dtlsidentitystore.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\dtmfsender.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\api\fakemetricsobserver.cc" />

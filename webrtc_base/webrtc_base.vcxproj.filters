@@ -331,5 +331,32 @@
     <ClCompile Include="..\..\webrtc\webrtc\base\sslidentity.cc">
       <Filter>ssl</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\audio\audio_receive_stream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\audio\audio_send_stream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\audio\audio_state.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslstreamadapter.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslsocketfactory.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\opensslstreamadapter.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\opensslidentity.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\openssldigest.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\openssladapter.cc">
+      <Filter>ssl</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

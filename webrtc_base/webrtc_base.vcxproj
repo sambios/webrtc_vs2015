@@ -134,6 +134,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\audio\audio_receive_stream.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\audio\audio_send_stream.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\audio\audio_state.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\asyncfile.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\asynchttprequest.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\asyncinvoker.cc" />
@@ -186,6 +189,10 @@
     <ClCompile Include="..\..\webrtc\webrtc\base\nethelpers.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\network.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\networkmonitor.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\base\openssladapter.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\base\openssldigest.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\base\opensslidentity.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\base\opensslstreamadapter.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\optionsfile.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\pathutils.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\physicalsocketserver.cc" />
@@ -213,9 +220,9 @@
     <ClCompile Include="..\..\webrtc\webrtc\base\socketstream.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\ssladapter.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\sslfingerprint.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\base\sslidentity.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslidentity.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslsocketfactory.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\base\sslstreamadapter.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\stream.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\stringencode.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\base\stringutils.cc" />

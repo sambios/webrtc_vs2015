@@ -18,10 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_coding\codecs\h264\h264.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_coding\codecs\h264\h264_decoder_impl.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\video_coding\codecs\h264\h264_encoder_impl.cc" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{06D22656-CAB8-4629-95BC-568A269B0F10}</ProjectGuid>
+    <ProjectGuid>{AA614A11-B44E-4E60-A416-A94C6669DEC2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>webrtc_system_wrappers</RootNamespace>
+    <RootNamespace>webrtc_codec_vp8</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -130,48 +135,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\aligned_malloc.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\atomic32_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\clock.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\condition_variable_event_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\cpu_features.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\cpu_info.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\data_log.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\data_log_c.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\event.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\event_timer_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\field_trial_default.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\file_impl.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\logging.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\metrics_default.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\rtp_to_ntp.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_winxp_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\sleep.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\sort.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\tick_util.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\timestamp_extrapolator.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\trace_impl.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\trace_win.cc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\condition_variable_event_win.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\data_log_c_helpers_unittest.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\event_timer_posix.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\event_timer_win.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\file_impl.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_posix.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_win.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_winxp_win.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\trace_impl.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\trace_posix.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\trace_win.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

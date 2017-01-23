@@ -18,10 +18,54 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\locked_bandwidth_info.cc" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\arith_routines.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\arith_routines_hist.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\arith_routines_logist.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\bandwidth_estimator.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\crc.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\decode.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\decode_bwe.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\encode.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\encode_lpc_swb.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\entropy_coding.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\fft.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\filterbanks.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\filterbank_tables.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\filter_functions.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\intialize.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\isac.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\lattice.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_analysis.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_gain_swb_tables.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_shape_swb12_tables.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_shape_swb16_tables.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_tables.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_estimator.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_filter.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_gain_tables.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_lag_tables.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\spectrum_ar_model_tables.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\source\transform.c" />
+    <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\util\utility.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\audio_decoder_isac_t.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\audio_decoder_isac_t_impl.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\audio_encoder_isac_t.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\audio_encoder_isac_t_impl.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\bandwidth_info.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\locked_bandwidth_info.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\include\audio_decoder_isac.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\include\audio_encoder_isac.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\include\isac.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\isac\main\util\utility.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{06D22656-CAB8-4629-95BC-568A269B0F10}</ProjectGuid>
+    <ProjectGuid>{F2E121D2-94F3-42EE-A6BD-CE6613FDFFAC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>webrtc_system_wrappers</RootNamespace>
+    <RootNamespace>webrtc_codec_isac</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -81,6 +125,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(webrtc_root)\webrtc\modules\audio_coding\codecs\isac\main\source;$(webrtc_root)\webrtc\common_audio\signal_processing\include;$(webrtc_root)\webrtc\modules\audio_coding\codecs\isac\main\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -130,48 +175,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\aligned_malloc.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\atomic32_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\clock.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\condition_variable_event_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\cpu_features.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\cpu_info.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\data_log.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\data_log_c.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\event.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\event_timer_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\field_trial_default.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\file_impl.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\logging.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\metrics_default.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\rtp_to_ntp.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_winxp_win.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\sleep.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\sort.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\tick_util.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\timestamp_extrapolator.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\trace_impl.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\system_wrappers\source\trace_win.cc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\condition_variable_event_win.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\data_log_c_helpers_unittest.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\event_timer_posix.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\event_timer_win.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\file_impl.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_posix.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_win.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\rw_lock_winxp_win.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\trace_impl.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\trace_posix.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\system_wrappers\source\trace_win.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
