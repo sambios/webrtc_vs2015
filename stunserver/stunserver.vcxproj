@@ -18,23 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\conductor.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\defaults.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\main.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\main_wnd.cc" />
-    <ClCompile Include="..\..\webrtc\webrtc\examples\peerconnection\client\peer_connection_client.cc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\conductor.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\defaults.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\flagdefs.h" />
-    <ClInclude Include="..\..\webrtc\webrtc\examples\peerconnection\client\main_wnd.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{19700D6F-3090-41B8-B0A9-EC0979910CCC}</ProjectGuid>
+    <ProjectGuid>{6C12DFF3-80B0-43F3-814A-ED4DA5443EBE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>peerconnect_client</RootNamespace>
+    <RootNamespace>stunserver</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -107,9 +94,9 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>webrtc.lib;webrtc_base.lib;webrtc_p2p.lib;jsoncpp.lib;webrtc_libjingle.lib;webrtc_media.lib;webrtc_modules.lib;webrtc_system_wrappers.lib;dxguid.lib;strmiids.lib;strmbasd-v140.lib;webrtc_common_audio.lib;webrtc_common_video.lib;libyuvd.lib;webrtc_video.lib;webrtc_voice_engine.lib;webrtc_pc.lib;webrtc_call.lib;webrtc_module_rtp.lib;webrtc_module_audio_coding.lib;webrtc_module_video_coding.lib;webrtc_codec_isac.lib;webrtc_codec_cng.lib;webrtc_codec_pcm16b.lib;webrtc_codec_red.lib;webrtc_codec_g711.lib;msdmo.lib;dmoguids.lib;wmcodecdspuuid.lib;webrtc_audio.lib;webrtc_codec_h264.lib;webrtc_codec_i420.lib;webrtc_codec_vp8.lib;webrtc_codec_vp9.lib;avutil.lib;swresample.lib;swscale.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;vpxmdd.lib;libopenh264.dll.a;libeay32.lib;ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>webrtc_base.lib;webrtc_p2p.lib;libeay32.lib;ssleay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -140,7 +127,6 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>strmbase-v140.lib;amstrmid.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -160,6 +146,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\webrtc\examples\stunserver\stunserver_main.cc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
