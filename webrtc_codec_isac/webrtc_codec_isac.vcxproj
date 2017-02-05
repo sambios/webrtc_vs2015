@@ -152,6 +152,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(webrtc_root)\webrtc\modules\audio_coding\codecs\isac\main\source;$(webrtc_root)\webrtc\common_audio\signal_processing\include;$(webrtc_root)\webrtc\modules\audio_coding\codecs\isac\main\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

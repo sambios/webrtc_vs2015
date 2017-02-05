@@ -8,10 +8,10 @@
   <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalIncludeDirectories>$(webrtc_root);..\..\jsoncpp\include;..\..\3rdparty\expat\x86-windows-cl14\include;..\..\3rdparty\libyuv\x86-windows-cl14\include;..\..\3rdparty\DirectX\DirectShow\BaseClasses;..\..\3rdparty\ffmpeg;..\..;..\..\3rdparty\openssl\x86-windows-cl14\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WEBRTC_WIN;NOMINMAX;EXPAT_RELATIVE_PATH;WEBRTC_NS_FIXED;WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE;WEBRTC_USE_H264;HAVE_WEBRTC_VOICE;HAVE_WEBRTC_VIDEO;HAVE_OPENSSL_SSL_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WEBRTC_WIN;NOMINMAX;EXPAT_RELATIVE_PATH;WEBRTC_NS_FIXED;WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE;WEBRTC_USE_H264;HAVE_WEBRTC_VOICE;HAVE_WEBRTC_VIDEO;HAVE_OPENSSL_SSL_H;HAVE_SRTP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);..\..\3rdparty\DirectX\DirectShow\BaseClasses\lib;..\..\3rdparty\libyuv\x86-windows-cl14\lib;..\..\3rdparty\ffmpeg\x86-windows-cl14\bin;..\..\3rdparty\openssl\x86-windows-cl14\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);..\..\3rdparty\DirectX\DirectShow\BaseClasses\lib;..\..\3rdparty\libyuv\x86-windows-cl14\lib;..\..\3rdparty\ffmpeg\x86-windows-cl14\bin;..\..\3rdparty\openssl\x86-windows-cl14\lib;..\..\3rdparty\libvpx\x86-windows-cl14\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>ws2_32.lib;winmm.lib;Secur32.lib;Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
