@@ -165,6 +165,18 @@
   <ItemGroup>
     <ClInclude Include="..\..\webrtc\webrtc\modules\audio_processing\audio_buffer.h" />
     <ClInclude Include="..\..\webrtc\webrtc\modules\audio_processing\intelligibility\intelligibility_enhancer.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_config.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_defines.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_delay.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_factory.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\device_info_ds.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\device_info_mf.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\help_functions_ds.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\sink_filter_ds.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\video_capture_ds.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\video_capture_mf.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_render\video_render.h" />
     <ClInclude Include="..\..\webrtc\webrtc\modules\video_render\windows\i_video_render_win.h" />
     <ClInclude Include="..\..\webrtc\webrtc\modules\video_render\windows\video_render_direct3d9.h" />
     <ClInclude Include="..\..\webrtc\webrtc\modules\video_render\windows\video_render_windows_impl.h" />

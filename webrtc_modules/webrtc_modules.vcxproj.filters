@@ -88,6 +88,12 @@
     <Filter Include="audio_processing\agc\legacy">
       <UniqueIdentifier>{f2f88063-8c25-4a4e-bd14-605476ea3282}</UniqueIdentifier>
     </Filter>
+    <Filter Include="video_capture\include">
+      <UniqueIdentifier>{4e90280e-555a-4da7-9a86-755ba0bbe156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="video_render\include">
+      <UniqueIdentifier>{60c61e66-9288-4bfa-a962-f6309cbde1b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\webrtc\webrtc\modules\desktop_capture\cropped_desktop_frame.cc">
@@ -532,6 +538,42 @@
     </ClInclude>
     <ClInclude Include="..\..\webrtc\webrtc\modules\audio_processing\intelligibility\intelligibility_enhancer.h">
       <Filter>audio_processing\intelligibility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture.h">
+      <Filter>video_capture\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_config.h">
+      <Filter>video_capture\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_defines.h">
+      <Filter>video_capture\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_delay.h">
+      <Filter>video_capture\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\video_capture_factory.h">
+      <Filter>video_capture\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_render\video_render.h">
+      <Filter>video_render\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\device_info_ds.h">
+      <Filter>video_capture\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\device_info_mf.h">
+      <Filter>video_capture\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\help_functions_ds.h">
+      <Filter>video_capture\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\sink_filter_ds.h">
+      <Filter>video_capture\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\video_capture_ds.h">
+      <Filter>video_capture\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\video_capture\windows\video_capture_mf.h">
+      <Filter>video_capture\win</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

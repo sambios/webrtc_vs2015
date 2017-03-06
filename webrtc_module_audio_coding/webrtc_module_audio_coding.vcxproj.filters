@@ -13,6 +13,9 @@
     <Filter Include="audio_coding\codecs">
       <UniqueIdentifier>{ab53a017-d387-47fe-861e-aa3f395ec085}</UniqueIdentifier>
     </Filter>
+    <Filter Include="audio_coding\neteq\include">
+      <UniqueIdentifier>{0b4bda2a-4229-4ff6-a26f-d94bcc07bb2c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\acm2\acm_codec_database.cc">
@@ -144,5 +147,10 @@
     <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\codecs\audio_encoder.cc">
       <Filter>audio_coding\codecs</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\neteq\include\neteq.h">
+      <Filter>audio_coding\neteq\include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

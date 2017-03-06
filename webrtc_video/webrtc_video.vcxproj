@@ -154,6 +154,26 @@
     <ClCompile Include="..\..\webrtc\webrtc\video\vie_remb.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\video\vie_sync_module.cc" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\video\call_stats.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\encoded_frame_callback_adapter.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\encoder_state_feedback.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\overuse_frame_detector.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\payload_router.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\receive_statistics_proxy.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\report_block_stats.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\send_statistics_proxy.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\stream_synchronization.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\video_capture_input.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\video_quality_test.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\video_receive_stream.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\video_send_stream.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_channel.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_encoder.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_receiver.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_remb.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_sync_module.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

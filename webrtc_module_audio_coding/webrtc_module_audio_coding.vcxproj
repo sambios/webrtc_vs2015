@@ -63,6 +63,9 @@
     <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\neteq\timestamp_scaler.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\modules\audio_coding\neteq\time_stretch.cc" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\audio_coding\neteq\include\neteq.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2F7ED366-65C8-450B-9755-71F84EC35008}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

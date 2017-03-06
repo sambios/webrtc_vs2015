@@ -7,6 +7,9 @@
     <Filter Include="rtp_rtcp\rtcp_packet">
       <UniqueIdentifier>{ce2cd3af-965d-4014-a979-676cd1a85c99}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{36f5a848-baa0-4f3b-b645-ded7275174a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\bitrate.cc">
@@ -204,5 +207,34 @@
     <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\rtcp_packet\voip_metric.cc">
       <Filter>rtp_rtcp\rtcp_packet</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\fec_receiver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\receive_statistics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\remote_ntp_time_estimator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_cvo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_header_parser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_payload_registry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_receiver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_rtcp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_rtcp_defines.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "turnserver", "turnserver\tu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webrtc_test", "webrtc_test\webrtc_test.vcxproj", "{B4A8CE0F-B30F-4029-92F3-6B7C44D806DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testLocalCapture", "testLocalCapture\testLocalCapture.vcxproj", "{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -435,6 +437,14 @@ Global
 		{B4A8CE0F-B30F-4029-92F3-6B7C44D806DC}.Release|x64.Build.0 = Release|x64
 		{B4A8CE0F-B30F-4029-92F3-6B7C44D806DC}.Release|x86.ActiveCfg = Release|Win32
 		{B4A8CE0F-B30F-4029-92F3-6B7C44D806DC}.Release|x86.Build.0 = Release|Win32
+		{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6}.Debug|x64.ActiveCfg = Debug|x64
+		{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6}.Debug|x64.Build.0 = Debug|x64
+		{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6}.Debug|x86.Build.0 = Debug|Win32
+		{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6}.Release|x64.ActiveCfg = Release|x64
+		{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6}.Release|x64.Build.0 = Release|x64
+		{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6}.Release|x86.ActiveCfg = Release|Win32
+		{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -445,5 +455,6 @@ Global
 		{6C12DFF3-80B0-43F3-814A-ED4DA5443EBE} = {66E88ED9-B157-43C1-9E7C-46B5585C9D8B}
 		{33340202-960B-4CCE-8BF8-169A9115302E} = {66E88ED9-B157-43C1-9E7C-46B5585C9D8B}
 		{15404258-6543-46EC-85EE-7E4BBDE86328} = {66E88ED9-B157-43C1-9E7C-46B5585C9D8B}
+		{B8F2DF72-3EBB-4790-B843-F81B5B7C2FD6} = {66E88ED9-B157-43C1-9E7C-46B5585C9D8B}
 	EndGlobalSection
 EndGlobal

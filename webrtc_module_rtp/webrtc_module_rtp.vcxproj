@@ -85,6 +85,17 @@
     <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\tmmbr_help.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\modules\rtp_rtcp\source\vp8_partition_aggregator.cc" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\fec_receiver.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\receive_statistics.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\remote_ntp_time_estimator.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_cvo.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_header_parser.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_payload_registry.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_receiver.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_rtcp.h" />
+    <ClInclude Include="..\..\webrtc\webrtc\modules\rtp_rtcp\include\rtp_rtcp_defines.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6419E10B-1FA0-4B93-AFC8-6499B2A6CE11}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

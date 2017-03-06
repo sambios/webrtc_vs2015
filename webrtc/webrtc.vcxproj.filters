@@ -1,97 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="api">
+    <Filter Include="api_c">
       <UniqueIdentifier>{98a07a5d-bf3b-4324-8979-8b4e5984a30c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\webrtc\webrtc\api\audiotrack.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\datachannel.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\dtlsidentitystore.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\dtmfsender.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\fakemetricsobserver.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\jsepicecandidate.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\jsepsessiondescription.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\localaudiosource.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\mediaconstraintsinterface.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\mediacontroller.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\mediastream.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\mediastreamhandler.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\mediastreamobserver.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\peerconnection.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\peerconnectionfactory.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\portallocatorfactory.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\remoteaudiosource.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\remoteaudiotrack.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\rtpreceiver.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\rtpsender.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\sctputils.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\statscollector.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\statstypes.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\videocapturertracksource.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\videotrack.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\videotracksource.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\webrtcsdp.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\webrtcsession.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\api\webrtcsessiondescriptionfactory.cc">
-      <Filter>api</Filter>
+      <Filter>api_c</Filter>
     </ClCompile>
     <ClCompile Include="..\..\webrtc\webrtc\common_types.cc" />
     <ClCompile Include="..\..\webrtc\webrtc\config.cc" />

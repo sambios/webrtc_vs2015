@@ -5,6 +5,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{7cc74429-98a9-45fb-8f01-8fe7feaf54fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -67,5 +70,61 @@
     <ClCompile Include="..\..\webrtc\webrtc\video\vie_sync_module.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\webrtc\video\call_stats.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\encoded_frame_callback_adapter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\encoder_state_feedback.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\overuse_frame_detector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\payload_router.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\receive_statistics_proxy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\report_block_stats.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\send_statistics_proxy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\stream_synchronization.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\video_capture_input.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\video_quality_test.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\video_receive_stream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\video_send_stream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_channel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_encoder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_receiver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_remb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\webrtc\video\vie_sync_module.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
