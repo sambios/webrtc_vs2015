@@ -37,6 +37,12 @@
     <ClCompile Include="AppRTCClient.cpp">
       <Filter>WebRTC_Core</Filter>
     </ClCompile>
+    <ClCompile Include="WebSocketRTCClient.cpp">
+      <Filter>WebRTC_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocketChannelClient.cpp">
+      <Filter>WebRTC_Core</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="AppRTCWindows.qrc" />
@@ -105,6 +111,12 @@
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="AppRTCClient.h">
+      <Filter>WebRTC_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSocketRTCClient.h">
+      <Filter>WebRTC_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSocketChannelClient.h">
       <Filter>WebRTC_Core</Filter>
     </ClInclude>
   </ItemGroup>

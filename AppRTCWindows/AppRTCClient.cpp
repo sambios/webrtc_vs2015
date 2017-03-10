@@ -2,11 +2,3 @@
 
 
 
-AppRTCClient::AppRTCClient()
-{
-}
-
-
-AppRTCClient::~AppRTCClient()
-{
-}
