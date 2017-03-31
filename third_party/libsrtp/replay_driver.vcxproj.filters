@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="srtp">
+      <UniqueIdentifier>{AC072D78-2BE9-B618-60BD-EAFD0BBE6E64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srtp\crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srtp\crypto\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srtp">
+      <UniqueIdentifier>{AC072D78-2BE9-B618-60BD-EAFD0BBE6E64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srtp\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srtp">
+      <UniqueIdentifier>{AC072D78-2BE9-B618-60BD-EAFD0BBE6E64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srtp\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="srtp\crypto\include\rdbx.h">
+      <Filter>srtp\crypto\include</Filter>
+    </ClInclude>
+    <ClInclude Include="srtp\include\ut_sim.h">
+      <Filter>srtp\include</Filter>
+    </ClInclude>
+    <ClCompile Include="srtp\test\replay_driver.c">
+      <Filter>srtp\test</Filter>
+    </ClCompile>
+    <None Include="libsrtp.gyp"/>
+  </ItemGroup>
+</Project>

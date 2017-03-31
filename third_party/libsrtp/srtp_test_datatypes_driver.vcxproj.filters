@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="srtp">
+      <UniqueIdentifier>{AC072D78-2BE9-B618-60BD-EAFD0BBE6E64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srtp\crypto">
+      <UniqueIdentifier>{DFFB1441-5E91-CEAB-DBC4-604225CE8161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srtp\crypto\test">
+      <UniqueIdentifier>{5763B17F-46DA-9ED7-179F-9C9F273B791C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="srtp\crypto\test\datatypes_driver.c">
+      <Filter>srtp\crypto\test</Filter>
+    </ClCompile>
+    <None Include="libsrtp.gyp"/>
+  </ItemGroup>
+</Project>
