@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\webrtc\webrtc\examples\stunserver\stunserver_main.cc">
+    <ClCompile Include="..\..\webrtc\examples\stunprober\main.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
